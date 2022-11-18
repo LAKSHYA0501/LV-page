@@ -11,29 +11,17 @@
     
     <script src="https://kit.fontawesome.com/a02b2830e8.js" crossorigin="anonymous"></script></head>
 <body>
-    <section class="home">
-        <a class="logo"> DIVA WORLD</a>
-    <div class="description">
+    <!-- <div class="description">
         <h3><b>Wedding Bands</b></h3>
         <h6>A wedding ring is a symbol of love, loyalty, and commitment in a marriage. You can say that a wedding ring is like a seal that secures your love and ties two people together. Furthermore, a wedding ring also indicates that a person is in a marriage, and they are not interested in new relationships. If you are willing to learn more about the significance of wedding rings, have a look at the famous wedding rings quotes.</h6>
     </div>
-    <img src="/images/rings.jpeg" alt="rings image" />
-    <div class="social-container">
-        <ul class="social-icons">
-            <li><a href="https://www.faceebook.com/"><i class="fa fa-facebook-square"></i></a></li>
-            <li><a href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a></li>
-            <li><a href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-        </ul>
-    </div>
-
-    <div class="price-range-slider">
-  
+    <img src="/images/rings.jpeg" alt="rings image" /> -->
+    <!-- <div class="price-range-slider">
         <p class="range-value">
           <input type="text" id="amount" readonly>
         </p>
         <div id="slider-range" class="range-bar"></div>
-        
-      </div>
+      </div> -->
     </section>
     
 </body>
