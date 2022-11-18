@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class WeddingBands extends Model
 {
-    use HasFactory;
+    protected $table = 'wedding_bands';
     protected $fillable=[
         'prod_sku',
         'prod_Live_URL',
@@ -39,6 +39,5 @@ class WeddingBands extends Model
         'attr_whitegold_rose_round_img',
         'attr_tricolor_round_default_img',
         'attr_tricolor_round_img',
-
     ];
 }
