@@ -43,8 +43,8 @@
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Services</a></li>
                                 <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Contac Ust</a></li>
-                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">About Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -54,7 +54,7 @@
                                 <h3>Subscribe</h3>
                             </div>
                             <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                                <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
                             <div class="subscribe-form">
                                 <form action="#">
