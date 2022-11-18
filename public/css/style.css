@@ -159,7 +159,7 @@ ul {
 /* Font Awesome Icons have variable width. Added fixed width to fix that.*/
 .icon-width { width: 2rem;}
 
-body{
+.main{
     background-color:palevioletred;
 }
 .description{
