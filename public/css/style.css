@@ -136,18 +136,6 @@ ul {
   font-size: 22px;
   transform: rotate(-6deg);
 }
-.copyright-area{
-  background: #202020;
-  padding: 25px 0;
-}
-.copyright-text p {
-  margin: 0;
-  font-size: 14px;
-  color: #878787;
-}
-.copyright-text p a{
-  color: #ff5e14;
-}
 .footer-menu li {
   display: inline-block;
   margin-left: 20px;
@@ -170,3 +158,27 @@ ul {
 }
 /* Font Awesome Icons have variable width. Added fixed width to fix that.*/
 .icon-width { width: 2rem;}
+
+body{
+    background-color:palevioletred;
+}
+.description{
+    z-index: 999;
+}
+.description h1{
+    font-size: 60px;
+    letter-spacing: 3px;
+    margin-top: 20px;
+}
+.description p{
+    font-size: 30px;
+    width: 500px;
+}
+.contain img{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 100px;
+    left: 65%;
+    border: 2.5px solid black;
+}
