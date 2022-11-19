@@ -11,7 +11,5 @@
       <img src="/images/blring.jpeg">        
     </div>
   </div>
-  
 </div>  
-
 @endsection

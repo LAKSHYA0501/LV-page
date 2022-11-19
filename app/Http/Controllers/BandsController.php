@@ -7,9 +7,10 @@ use App\Models\WeddingBands;
 
 class BandsController extends Controller
 {
-    public function show()
+
+    public function index()
     {
-        $data = WeddingBands::all();
-        return view('bands',($data));
+        $bands = WeddingBands::all();
+        return view('bands')->with(['bands' => $bands]);
     }
 }

@@ -1,5 +1,4 @@
-@extends('master')
-<div class="slidecontainer">
+<div class="slidecontainer mt-100px">
     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
     <div class="card">
         <span class="ml-3 font-weight-bold">FILTER:</span>
@@ -22,12 +21,32 @@
               <li><a class="dropdown-item">WOMEN</a></li>
             </ul>
           </li>
-          
-          {{-- @foreach($data as $d=>$c)
-          @dd($data)
-          <h2>{{$d}}</h2>
-          <h2>{{$c}}</h2>
-          @endforeach --}}
+          <table class="table table-striped table-bordered">
+        <thead class="thead-dark">
+        <tr class="sticky-top">
+            <th>prod_sku</th>
+            <th>prod_live_url</th>
+            <th>prod_name</th>
+            <th>prod_long_desc</th>
+        </tr>
+        @foreach ($bands as $band)
+        <tr>
+            <td>
+                {{ $band->prod_sku}}
+            </td>
+            <td>
+                {{$band->prod_Live_URl}}     
+                    
+            </td>
+            <td>
+                <span>{{ $band->prod_name }}</span>
+            </td>
+            <td>
+                <span>{{ $band->prod_long_desc }}</span>
+            </td>
+        </tr>
+        @endforeach
+    </table>
     </div>
 </div>
   
