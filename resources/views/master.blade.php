@@ -17,9 +17,20 @@
 
 </head>
 <body>
-    {{View::make('header')}}
-    @yield('content')
-    {{View::make('footer')}}
-    
+<div id="app">
+        <nav class="navbar navbar-expand-md navbar-light navbar-laravel">
+            <div  id="navbarSupportedContent">
+            {{View::make('header')}}
+            </div>
+        </nav>
+    <div>
+        {{View::make('header')}}
+    </div>
+    <div>
+        @yield('content')
+    </div>
+   <div>
+       {{View::make('footer')}} 
+   </div>
 </body>
 </html>
