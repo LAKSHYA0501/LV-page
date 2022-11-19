@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ImportExcelController;
 
+use App\Http\Controllers\BandsController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,3 +20,5 @@ Route::get('/', function () {
 });
 Route::get('import-export', [ImportExcelController::class, 'fileImportExport'])->name('file-import');
 Route::post('excel-import', [ImportExcelController::class, 'importExcel'])->name('excel-import');
+
+Route::get('/bands',[BandsController::class, 'index'])->name('bands');

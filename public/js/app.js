@@ -2061,6 +2061,15 @@ module.exports = {
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+$(document).ready(function () {
+  if ($(window).width() > 991) {
+    $('.navbar-light .d-menu').hover(function () {
+      $(this).find('.sm-menu').first().stop(true, true).slideDown(150);
+    }, function () {
+      $(this).find('.sm-menu').first().stop(true, true).delay(120).slideUp(100);
+    });
+  }
+});
 
 /***/ }),
 
