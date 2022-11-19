@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ImportExcelController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('import-export', [ImportExcelController::class, 'fileImportExport'])->name('file-import');
+Route::post('excel-import', [ImportExcelController::class, 'importExcel'])->name('excel-import');
