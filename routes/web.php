@@ -26,3 +26,5 @@ Route::post('/excel-import', [ImportExcelController::class, 'importExcel'])->nam
 Route::get('/page',function(){
     return view('page');
 });
+
+Route::get('/bands',[BandsController::class, 'index'])->name('bands');
