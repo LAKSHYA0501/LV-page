@@ -39,12 +39,11 @@
                                 <h3>More</h3>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Portfolio</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                                <li><a href="#">About Us</a></li>
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/page">About</a></li>
+                                <li><a href="/page">Services</a></li>
+                                <li><a href="/page">Portfolio</a></li>
+                                <li><a href="/page">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +56,7 @@
                                 <p>Don't miss to subscribe to our new feeds, kindly fill the form below.</p>
                             </div>
                             <div class="subscribe-form">
-                                <form action="#">
+                                <form action="/page">
                                     <input type="text" placeholder="Email Address">
                                     <button><i class="fab fa-telegram-plane"></i></button>
                                 </form>

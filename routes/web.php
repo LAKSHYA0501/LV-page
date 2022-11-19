@@ -17,4 +17,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/bands',[BandsController::class, 'index'])->name('bands');
+Route::get('/page',function(){
+    return view('page');
+});
+
+Route::get('/bands/show',[BandsController::class, 'show'])->name('bands.show');
+
