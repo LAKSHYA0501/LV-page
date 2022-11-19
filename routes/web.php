@@ -16,5 +16,10 @@ use App\Http\Controllers\BandsController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/bands/show',[BandsController::class, 'index'])->name('bands.show');
 
-Route::get('/bands',[BandsController::class, 'index'])->name('bands');
+Route::get('/page',function(){
+    return view('page');
+});
+
+
