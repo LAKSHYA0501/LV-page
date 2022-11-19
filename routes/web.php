@@ -23,8 +23,6 @@ Route::get('/import-export', [ImportExcelController::class, 'fileImportExport'])
 
 Route::post('/excel-import', [ImportExcelController::class, 'importExcel'])->name('excel-import');
 
-Route::get('/bands/show',[BandsController::class, 'index'])->name('bands.show');
-
 Route::get('/page',function(){
     return view('page');
 });
