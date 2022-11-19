@@ -2,14 +2,14 @@
 <div class="slidecontainer">
     <input type="range" min="1" max="100" value="50" class="slider" id="myRange">
     <div class="card">
-        <span class="ml-3 font-weight-bold">FILTER:</span>
-        <div>
-            <section class="container">
+        <span class=" font-weight-bold"><H1>FILTER:</H1></span>
+
+            <section class="dropcontainer">
                 <div class="dropdown">
                     <select name="one" class="dropdown-select">
                     <option value="">GENDER</option>
-                    <option value="1">MEN </option>
-                    <option value="2">WOMEN </option>
+                    <option value="mans" ><a href="{{ route('bands.man') }}">MAN</a></option>
+                    <option value="womans" href="{{ route('bands.woman') }}">WOMEN </option>
                     </select>
                 </div>
                 <div class="dropdown dropdown-dark">
@@ -21,10 +21,8 @@
                     </select>
                 </div>
             </section>
-        </div>
     </div>
     <div>
-
 </div>
 <div>
     <table class="table table-striped table-bordered">

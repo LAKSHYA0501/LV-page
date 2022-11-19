@@ -8,9 +8,16 @@ use App\Models\WeddingBands;
 class BandsController extends Controller
 {
 
-    public function index()
+    public function index(Request $request)
     {
-        $bands = WeddingBands::all();
+        if ($request->mans) {
+            $bands = WeddingBands::where('prodmeta_section', 'mans')->get();
+        } elseif ($request->womans) {
+            $bands = WeddingBands::where('prodmta_section', 'womans')->get();
+        } else {
+            $bands = WeddingBands::all();
+        }
+
         return view('bands')->with(['bands' => $bands]);
     }
 }
