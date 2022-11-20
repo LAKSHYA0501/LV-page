@@ -10,10 +10,10 @@ class BandsController extends Controller
 
     public function index(Request $request)
     {
-        if ($request->mans) {
-            $bands = WeddingBands::where('prodmeta_section', 'mans')->get();
-        } elseif ($request->womans) {
-            $bands = WeddingBands::where('prodmta_section', 'womans')->get();
+        if ($request->mens) {
+            $bands = WeddingBands::where('prodmeta_section', 'mens')->get();
+        } elseif ($request->womens) {
+            $bands = WeddingBands::where('prodmta_section', 'womens')->get();
         } else {
             $bands = WeddingBands::all();
         }
