@@ -28,3 +28,5 @@ Route::get('/page',function(){
 });
 
 Route::get('/bands',[BandsController::class, 'index'])->name('bands');
+Route::get('/bands-men',[BandsController::class, 'index'])->name('bands.men');
+Route::get('/bands-women',[BandsController::class, 'index'])->name('bands.women');

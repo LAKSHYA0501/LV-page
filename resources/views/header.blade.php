@@ -12,17 +12,6 @@
           <li class="nav-item px-lg-2 active"> <a class="nav-link" href="/"> Home <i class="fas fa-home"></i></a> </li>
           <li class="nav-item px-lg-2"> <a class="nav-link" href="/page"> About <i class="far fa-user"></i></a> </li>
           <li class="nav-item px-lg-2"> <a class="nav-link" href="/page"> Services <i class="fas fa-spa"></i></a> </li>
-    
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown <i class="fa fa-angle-down"></i>
-            </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <li><a class="dropdown-item" href="/page">Action</a></li>
-              <li><a class="dropdown-item" href="/page">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="/page">Something else here</a></li>
-            </ul>
           </li>
           <li class="nav-item px-lg-2"> <a class="nav-link" href="/page">Contact <i class="fa fa-phone"></i></a></li>
           </ul>

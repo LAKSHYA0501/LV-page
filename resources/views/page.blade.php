@@ -1,4 +1,6 @@
-<div class="container">
+@extends('master')
+@section('content')
+<div class="main container">
   <div class="card">
       <div class="container">
         <h4><b>NEW PAGES</b></h4>
@@ -7,4 +9,6 @@
       </div>
   </div>
 </div>
+@endsection
+
 
