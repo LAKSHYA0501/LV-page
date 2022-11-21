@@ -9,7 +9,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbar4">
         <ul class="navbar-nav mr-auto pl-lg-4">
-          <li class="nav-item px-lg-2 active"> <a class="nav-link" href="/"> Home <i class="fas fa-home"></i></a> </li>
+          <li class="nav-item px-lg-2 active"> <a class="nav-link" href="/"> Home <i class="fa fa-home"></i></a> </li>
           <li class="nav-item px-lg-2"> <a class="nav-link" href="/page"> About <i class="far fa-user"></i></a> </li>
           <li class="nav-item px-lg-2"> <a class="nav-link" href="/page"> Services <i class="fas fa-spa"></i></a> </li>
           </li>
